@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Available routes:
+  ul
+    for route in routes
+      li #{route.method.toUpperCase()} - #{route.path}
