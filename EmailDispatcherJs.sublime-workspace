@@ -1,0 +1,2031 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Amb",
+				"AmbigousProjectModel"
+			],
+			[
+				"en",
+				"environment"
+			],
+			[
+				"En",
+				"ENHANCEMENT"
+			],
+			[
+				"model",
+				"modelType"
+			],
+			[
+				"mod",
+				"modelType"
+			],
+			[
+				"Rend",
+				"RenderEngine"
+			],
+			[
+				"Accou",
+				"Accounts"
+			],
+			[
+				"personid",
+				"PersonIDHandler"
+			],
+			[
+				"Acc",
+				"AccountID"
+			],
+			[
+				"rewr",
+				"RewriterRegistry"
+			],
+			[
+				"Rewr",
+				"RewriterRegistry"
+			],
+			[
+				"Prox",
+				"ProxyBehaviourSet"
+			],
+			[
+				"prox",
+				"ProxyBehaviourRegistry"
+			],
+			[
+				"Ipacka",
+				"IPackageCache"
+			],
+			[
+				"IPac",
+				"IPackageSource"
+			],
+			[
+				"TimeSh",
+				"TimeSheetLine"
+			],
+			[
+				"TImeShee",
+				"TimeSheetStates"
+			],
+			[
+				"TimeShee",
+				"TimeSheetRules"
+			],
+			[
+				"Li",
+				"List"
+			],
+			[
+				"TImeshe",
+				"TimeSheetLine"
+			],
+			[
+				"hour",
+				"hourlyRate"
+			],
+			[
+				"Line",
+				"LineType"
+			],
+			[
+				"TImeSh",
+				"TimeSheetLine"
+			],
+			[
+				"hi",
+				"highlight"
+			],
+			[
+				"Timeshe",
+				"TimeSheetLineCollection"
+			],
+			[
+				"Time",
+				"TimeSheet"
+			],
+			[
+				"Timesh",
+				"TimeSheetLine"
+			],
+			[
+				"Sub",
+				"SubstituteFactory"
+			],
+			[
+				"Getpre",
+				"GetPrefixFromProperty"
+			],
+			[
+				"Pers",
+				"PersonDto"
+			],
+			[
+				"Req",
+				"RequestHandler"
+			],
+			[
+				"SUb",
+				"Substitution"
+			],
+			[
+				"lis",
+				"Liskov"
+			],
+			[
+				"Fil",
+				"FileEntry"
+			],
+			[
+				"Proce",
+				"ProcessException"
+			],
+			[
+				"Proc",
+				"ProcessException"
+			],
+			[
+				"FIl",
+				"FileEntryProcessException"
+			],
+			[
+				"Fileent",
+				"FileEntryProcessException"
+			],
+			[
+				"proc",
+				"FileEntryProcessException"
+			],
+			[
+				"Fie",
+				"FileEntry"
+			],
+			[
+				"Em",
+				"EmailGridHandler"
+			],
+			[
+				"Us",
+				"UserGrid"
+			],
+			[
+				"pri",
+				"primaryService"
+			],
+			[
+				"secon",
+				"secondaryService"
+			],
+			[
+				"JOb",
+				"JobPostingService"
+			],
+			[
+				"Cac",
+				"CachedJobService"
+			],
+			[
+				"add",
+				"addFile"
+			],
+			[
+				"templa",
+				"templateName"
+			],
+			[
+				"applys",
+				"applySingle"
+			],
+			[
+				"ut",
+				"utilities"
+			],
+			[
+				"temp",
+				"templateManager"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"first",
+				"firstCtor"
+			],
+			[
+				"meat",
+				"metaStore"
+			],
+			[
+				"init",
+				"intiInstance"
+			],
+			[
+				"buil",
+				"builderName"
+			],
+			[
+				"type",
+				"typeBuilders"
+			],
+			[
+				"rec",
+				"recurseInitialisers"
+			],
+			[
+				"for",
+				"formatString"
+			],
+			[
+				"tar",
+				"targetParent"
+			],
+			[
+				"te",
+				"testName"
+			],
+			[
+				"name",
+				"realName"
+			],
+			[
+				"chil",
+				"child1"
+			],
+			[
+				"par",
+				"parent"
+			],
+			[
+				"U",
+				"UltimateParent"
+			],
+			[
+				"fr",
+				"Frames"
+			],
+			[
+				"Fr",
+				"Frames"
+			],
+			[
+				"c",
+				"child1"
+			],
+			[
+				"chi",
+				"ChildTwo"
+			],
+			[
+				"AnimationGroup",
+				"animationGroup"
+			],
+			[
+				"animationgroup",
+				"AnimationGroup"
+			],
+			[
+				"a",
+				"animationgroup"
+			],
+			[
+				"nor",
+				"normalText"
+			],
+			[
+				"icon",
+				"iconOnly"
+			],
+			[
+				"lc",
+				"locales"
+			],
+			[
+				"set",
+				"stepOutData"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"script",
+				"Scripts"
+			],
+			[
+				"cat",
+				"categoryTemplateRan"
+			],
+			[
+				"Vide",
+				"VideoOptionsFrameCategoryFrame"
+			],
+			[
+				"have",
+				"haveKey"
+			],
+			[
+				"scriptiner",
+				"ScriptInheritanceTemplate"
+			],
+			[
+				"rel",
+				"relativeTo"
+			],
+			[
+				"but",
+				"button1"
+			],
+			[
+				"exa",
+				"ExampleButtonFrameBtn2"
+			],
+			[
+				"ex",
+				"ExampleButtonFrameBtn2"
+			],
+			[
+				"ExampleButtonFrame",
+				"ExampleButtonFrameBtn2"
+			],
+			[
+				"hae",
+				"haveCount"
+			],
+			[
+				"F",
+				"Frames"
+			],
+			[
+				"Scr",
+				"ScriptInheritanceInstance"
+			],
+			[
+				"sc",
+				"ScriptInheritanceInstance"
+			],
+			[
+				"xml",
+				"xmlConverter"
+			],
+			[
+				"isnt",
+				"instanceRan"
+			],
+			[
+				"instan",
+				"instanceRan"
+			],
+			[
+				"scr",
+				"ScriptInheritanceTemplate"
+			],
+			[
+				"Script",
+				"ScriptInheritanceInstance"
+			],
+			[
+				"o",
+				"OnLoad"
+			],
+			[
+				"scrip",
+				"script"
+			],
+			[
+				"templ",
+				"templateRan"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"Fra",
+				"Frames"
+			],
+			[
+				"cvar",
+				"cvarIndex"
+			],
+			[
+				"Sc",
+				"ScriptTestFrame"
+			],
+			[
+				"parse",
+				"parseXml"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"get",
+				"getInitialiser"
+			],
+			[
+				"me",
+				"metaStore"
+			],
+			[
+				"inti",
+				"initialisers"
+			],
+			[
+				"widg",
+				"widgetMetaBuilder"
+			],
+			[
+				"Font",
+				"FontInstance"
+			],
+			[
+				"s",
+				"ScriptObject"
+			],
+			[
+				"bu",
+				"builder"
+			],
+			[
+				"print",
+				"printTable"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"func",
+				"function	function"
+			],
+			[
+				"b",
+				"builderName"
+			],
+			[
+				"e",
+				"extends"
+			],
+			[
+				"ur",
+				"URy"
+			],
+			[
+				"rela",
+				"relativePoint"
+			],
+			[
+				"other",
+				"otherAnchor"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"frame",
+				"frameType"
+			],
+			[
+				"fra",
+				"framework"
+			],
+			[
+				"cre",
+				"createXml"
+			],
+			[
+				"bot",
+				"bottomOrLLy"
+			],
+			[
+				"top",
+				"topOrLLx"
+			],
+			[
+				"right",
+				"rightOrULy"
+			],
+			[
+				"lef",
+				"leftOrULx"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/dev/test-projects/EmailDispatcherJs/app.js",
+			"settings":
+			{
+				"buffer_size": 1443,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/dev/test-projects/EmailDispatcherJs/bin/www",
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/dev/test-projects/EmailDispatcherJs/routes/index.js",
+			"settings":
+			{
+				"buffer_size": 199,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/dev/test-projects/EmailDispatcherJs/views/index.jade",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/send.js",
+			"settings":
+			{
+				"buffer_size": 289,
+				"line_ending": "Windows",
+				"name": "var express = require('express');"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"pinst",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"highli",
+				"Snippet: highlight"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"jek",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"gith",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"tr",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tral",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tri",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trialing",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trailing",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"delete",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tril",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"trailin",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"high",
+				"Trailing Spaces: Toggle Trailing Spaces Highlighting"
+			],
+			[
+				"control",
+				"Package Control: Remove Package"
+			],
+			[
+				"preivew",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"makrdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"plist",
+				"Package Control: List Packages"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"lus",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"packagei",
+				"Package Control: Install Package"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 118.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/dev/test-projects/EmailDispatcherJs/routes/users.js",
+		"/D/dev/test-projects/EmailDispatcherJs/app.js",
+		"/D/dev/test-projects/EmailDispatcherJs/package.json",
+		"/D/dev/test-projects/EmailDispatcherJs/.gitignore",
+		"/D/dev/test-projects/EmailDispatcherJs/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json",
+		"/D/dev/projects/andydote/_posts/2014-02-02-specialising-a-general-application.md",
+		"/D/dev/projects/andydote/_posts/2014-03-01-solid-principles-isp.md",
+		"/D/dev/projects/andydote/_posts/2014-03-29-using-a-micro-orm-to-decouple-your-db-access.md",
+		"/D/dev/projects/andydote/_posts/2009-05-19-using-laziness.md",
+		"/D/dev/projects/andydote/_drafts/type-ids-with-dapper.md",
+		"/D/dev/test-projects/OctoTest/Rakefile",
+		"/D/dev/test-projects/OctoTest/OctoTest/OctoTest.csproj",
+		"/D/dev/test/dsl-obj.lua",
+		"/D/dev/test/dsl-tables.lua",
+		"/D/dev/test/dsl.lua",
+		"/D/dev/test/env.lua",
+		"/D/dev/test-projects/OctoTest/_build/tools/nuget/nuget.config",
+		"/D/dev/test-projects/OctoTest/.gitignore",
+		"/D/dev/Virtuals/Share/OctoTest/.nuget/packages.config",
+		"/D/dev/Virtuals/Share/OctoTest/OctoTest/OctoTest.csproj",
+		"/D/dev/Virtuals/Share/OctoTest/OctoTest/packages.config",
+		"/C/Users/Andy/Cruise.config",
+		"/D/dev/projects/andydote/_drafts/typed-ids.md",
+		"/D/dev/projects/andydote/_posts/2014-02-18-solid-principles-srp.md",
+		"/D/dev/projects/NuCache/NuCache.Tests/RewriterTests/XmlRewriterTests.cs",
+		"/D/dev/projects/NuCache/NuCache.Tests/Packages.xml",
+		"/D/dev/projects/andydote/_drafts/structuremap-registries.md",
+		"/C/Users/Andy/Documents/Blog Posts/Usability in websites.md",
+		"/C/Users/Andy/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/dev/projects/NuCache/.gitignore",
+		"/D/dev/projects/NuCache/NuCache/Statistics.log",
+		"/D/dev/test-projects/DomainArchitecture/readme.md",
+		"/D/dev/projects/andydote/_drafts/studing-opensource-automapper.md",
+		"/D/dev/Virtuals/boot2docker.sh",
+		"/D/dev/projects/NuCache/NuCache/NuCache.csproj",
+		"/D/dev/projects/andydote/_drafts/studing-opensource-nsubstitute.md",
+		"/D/dev/projects/andydote/_drafts/rich-domain-modeling.md",
+		"/D/dev/test-projects/DomainArchitechture/.gitignore",
+		"/D/dev/projects/andydote/_posts/2010-08-31-using-visual-studio-s-regex-find-and-replace.md",
+		"/D/dev/projects/andydote/_posts/2012-10-30-sqldatareaderhasrows-problems.md",
+		"/D/dev/projects/andydote/css/syntax.css",
+		"/D/dev/projects/andydote/_posts/2014-04-13-studing-opensource-automapper.md",
+		"/D/dev/downloaded-src/AutoMapper/src/AutoMapper/AutoMapper.Net4.csproj",
+		"/C/Users/Andy/Documents/Blog Posts/dapper-and-automapper.md",
+		"/C/Users/Andy/Documents/Blog Posts/studing-opensource-automapper.md",
+		"/D/dev/downloaded-src/AutoMapper/src/AutoMapper/AutoMapper.csproj",
+		"/C/Users/Andy/Documents/Blog Posts/solid-isp.md",
+		"/C/Users/Andy/Documents/Blog Posts/solid-dip.md",
+		"/C/Users/Andy/Documents/Blog Posts/solid-lsp.md",
+		"/C/Users/Andy/Documents/Blog Posts/Creating a FubuMvc website.md",
+		"/C/Users/Andy/Documents/Blog Posts/blogposts.sublime-project",
+		"/C/Users/Andy/Documents/Blog Posts/.SyncIgnore",
+		"/C/Users/Andy/Documents/Blog Posts/.SyncID",
+		"/C/Users/Andy/Documents/Blog Posts/solid-ocp.md",
+		"/C/Users/Andy/Documents/Blog Posts/solid-srp.md",
+		"/D/dev/notes/redgate.txt",
+		"/C/Users/Andy/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Andy/AppData/Roaming/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/C/Users/Andy/AppData/Roaming/Sublime Text 3/Packages/User/trailing_spaces.sublime-settings",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/0-Original/DbFileEntry.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/0-Original/FileEntry.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/0-Original/Usage.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/1-Violating/Database.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/1-Violating/DbFileEntry.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/1-Violating/FileEntry.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/1-Violating/Usage.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/2-Composition/Database.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/2-Composition/DbFileEntry.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/2-Composition/FileEntry.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/2-Composition/FileEntryProcessException.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/2-Composition/Usage.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/3-Inheritance/Database.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/3-Inheritance/DbFileEntry.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/3-Inheritance/FileEntry.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/3-Inheritance/FileNotFoundProcessException.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/3-Inheritance/KeyNotFoundProcessException.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/3-Inheritance/ProcessException.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Lsp/SideEffects/3-Inheritance/Usage.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Ocp/4-Final/GridHandler.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Ocp/4-Final/GridHandlers/EmailGridHandler.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Ocp/4-Final/Usage.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Ocp/4-Final/UserGrid.cs",
+		"/C/Users/Andy/Documents/Blog Posts/Specialising a General Application.md",
+		"/D/dev/test-projects/Solid.Demo/readme.md",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Srp/4-NewRequirements/Boards.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Srp/4-NewRequirements/CachedJobService.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Srp/4-NewRequirements/IJobService.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Srp/4-NewRequirements/Job.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Srp/4-NewRequirements/JobPostingService.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Srp/4-NewRequirements/JobWebService.cs",
+		"/D/dev/test-projects/Solid.Demo/Solid.Demo/Srp/4-NewRequirements/Usage.cs",
+		"/D/dev/projects/wowinterfakes/src/api/isBlizzCon.lua",
+		"/D/dev/projects/wowinterfakes/src/api/isAttackAction.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/ActionButton.lua",
+		"/D/dev/projects/wowinterfakes/src/api/getActionLossOfControlCooldown.lua",
+		"/D/dev/projects/wowinterfakes/src/widgets/applyCooldown.lua",
+		"/D/dev/projects/wowinterfakes/src/api/alias.math.lua",
+		"/D/dev/projects/wowinterfakes/src/widgets/applyCheckButton.lua",
+		"/D/dev/projects/wowinterfakes/src/widgets/applyFrame.lua",
+		"/D/dev/projects/wowinterfakes/src/widgets/applyRegion.lua",
+		"/D/dev/projects/wowinterfakes/wowinterfakes.lua",
+		"/D/dev/projects/wowinterfakes/tests/WidgetBuilderTests.lua",
+		"/D/dev/projects/wowinterfakes/src/core/templateManager.lua",
+		"/D/dev/projects/wowinterfakes/src/core/utilities.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/WatchFrame.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/WorldFrame.lua",
+		"/D/dev/projects/wowinterfakes/src/widgets/builder.lua",
+		"/D/dev/projects/wowinterfakes/src/parsers/xmlTag.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/ActionButtonTemplate.xml",
+		"/D/dev/projects/wowinterfakes/src/widgets/applyButton.lua",
+		"/D/dev/projects/wowinterfakes/src/parsers/xml/frame.lua",
+		"/D/dev/projects/wowinterfakes/src/api/setActionUIButton.lua",
+		"/D/dev/projects/wowinterfakes/tests/frameCreationTests.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/Cooldown.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/Constants.lua",
+		"/D/dev/projects/wowinterfakes/src/data/cvars.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/getActionCooldown.lua",
+		"/D/dev/projects/wowinterfakes/src/api/isShiftKeyDown.lua",
+		"/D/dev/projects/wowinterfakes/src/api/isControlKeyDown.lua",
+		"/D/dev/projects/wowinterfakes/src/api/isAltKeyDown.lua",
+		"/D/dev/projects/wowinterfakes/src/api/getActionTexture.lua",
+		"/D/dev/projects/wowinterfakes/src/api/hasAction.lua",
+		"/D/dev/projects/wowinterfakes/src/api/isCurrentAction.lua",
+		"/D/dev/projects/wowinterfakes/src/api/isAutoRepeatAction.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/UIDropDownMenu.lua",
+		"/D/dev/projects/wowinterfakes/wow-ui-source/FrameXML/UI.xsd",
+		"/D/dev/projects/wowinterfakes/src/api/unitXP.lua"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\dev\\downloaded-src",
+			"D:\\dev\\projects\\",
+			"D:\\dev\\test-projects",
+			"D:\\dev\\test-projects\\DomainArchitechture",
+			"D:\\dev\\test-projects\\Solid.Demo\\Solid.Demo\\Lsp\\",
+			"D:\\dev\\test-projects\\Solid.Demo\\Solid.Demo\\Ocp\\4-Final",
+			"D:\\dev\\test-projects\\Solid.Demo\\Solid.Demo\\Srp\\4-NewRequirements\\",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source",
+			"D:\\dev\\projects\\wowinterfakes\\src\\",
+			"D:\\dev\\projects\\wowinterfakes\\src\\widgets",
+			"D:\\dev\\projects\\wowinterfakes\\src",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source",
+			"D:\\dev\\projects\\wowinterfakes\\src",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source",
+			"D:\\dev\\projects\\wowinterfakes\\src",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\framexml\\",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\framexml\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\src\\widgets\\",
+			"D:\\dev\\projects\\wowinterfakes\\src\\widgets\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\framexml\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\",
+			"D:\\dev\\projects\\wowinterfakes\\src\\",
+			"D:\\dev\\projects\\wowinterfakes\\src\\widgets",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\framexml",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\framexml, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\Tests, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\, *.lua",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.lua",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.lua",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.*lua",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\parsers\\xml\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\parsers\\xml\\, *.lua",
+			"D:\\dev\\projects\\wowinterfakes\\parsers\\xml\\ *.lua",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.*",
+			"D:\\dev\\projects\\wowinterfakes\\wow-ui-source\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\, *.lua",
+			"D:\\dev\\projects\\wowinterfakes\\, *.xml",
+			"D:\\dev\\projects\\wowinterfakes\\, *.lua",
+			"D:\\dev\\tools\\lua\\5.1\\lua\\wowinterfakes\\, *.lua",
+			"D:\\dev\\tools\\lua\\5.1\\lua\\wowinterfakes\\wow-ui-source\\framexml",
+			"D:\\dev\\tools\\lua\\5.1\\lua\\wowinterfakes\\",
+			"D:\\dev\\tools\\lua\\5.1\\lua\\wowinterfakes\\wow-ui-source",
+			"D:\\dev\\tools\\lua\\5.1\\lua\\wowinterfakes\\cache",
+			"D:\\dev\\tools\\lua\\5.1\\lua\\wowinterfakes\\",
+			"D:\\dev\\tools\\lua\\5.1\\lua\\wowinterfakes\\wow-ui-source, *.xml",
+			"D:\\dev\\tools\\lua\\5.1\\lua\\wowinterfakes\\wow-ui-source",
+			"<open folders>, *.*",
+			"<open folders>, *.lua",
+			"D:\\downloaded-src\\SharpLua, *.cs",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\, *.lua",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\_DevPad, *.lua",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\_DevPad.GUI, *.lua",
+			"<open folders>, *.lua",
+			"<open folders>",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Darkui\\",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Darkui\\libs",
+			"X:\\dev\\downloaded-src\\ElvUI",
+			"X:\\dev\\downloaded-src\\",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Darkui\\libs",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Darkui\\modules\\tracker",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Darkui",
+			"X:\\dev\\downloaded-src\\wowui",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Darkui",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Darkui\\",
+			"X:\\dev\\downloaded-src\\wowui",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Kui, C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Kui_Nameplates",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\Kui",
+			"",
+			"C:\\Users\\Andy\\Downloads\\Elephant-3.1.2.1\\Elephant",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\",
+			"X:\\dev\\downloaded-src\\wowui",
+			"X:\\dev\\downloaded-src\\ElvUI\\modules\\misc",
+			"C:\\Program Files (x86)\\World of Warcraft\\Interface\\AddOns\\",
+			"C:\\Users\\Andy\\Downloads\\WeakAuras-1.4.5\\WeakAuras"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"targets",
+			"orm",
+			"end,",
+			"= function",
+			"local ",
+			" ",
+			"typeof(TModel)",
+			"Guid",
+			"UserID",
+			"OrderID",
+			"WebActivator",
+			"spell",
+			"targetUri",
+			"uriRewriter",
+			"new Container(",
+			"bc",
+			"pubxml",
+			"Architechture",
+			"WeekDays",
+			"Entity",
+			"Profile328",
+			"%20",
+			"personDto",
+			"dto",
+			"ocp",
+			"namespace Solid.Demo.Lsp",
+			"_path",
+			"GridHandler",
+			"namespace Solid.Demo.Ocp.Removal",
+			"TEntity",
+			"t",
+			"T",
+			"t",
+			"T",
+			"t",
+			"T",
+			"FunctionalityExtract",
+			"_currentUser",
+			"WebService",
+			"webService",
+			"var service",
+			"IsAttackAction",
+			"IsBlizzCon",
+			"isBlizzCon",
+			"GetActionLossOfControlCooldown",
+			"IsBlizzCon",
+			"isBlizzCon",
+			"utilities",
+			"token",
+			"GetActionCooldown",
+			"IsAutoRepeatAction",
+			"isAutoRepeatAction",
+			"IsAutoRepeatAction",
+			"IsCurrentAction",
+			"isCurrentAction",
+			"IsCurrentAction",
+			"HasAction",
+			"hasAction",
+			"HasAction",
+			"GetActionTexture",
+			"getActionTexture",
+			"GetActionTexture",
+			"SetActionUIButton",
+			"setActionUIButton",
+			"SetActionUIButton",
+			"IsAltKeyDown",
+			"isAltKeyDown",
+			"Control",
+			"Shift",
+			"IsShiftKeyDown",
+			"securecall",
+			"ActionButton_CalculateAction",
+			"ActionButton_UpdateAction",
+			"actionButton_onload",
+			"secondCtor",
+			"intiInstance",
+			"metaStore",
+			"widgetMetaBuilder",
+			"ns.widgetMetaBuilder.addType({",
+			"end,",
+			"function",
+			"actions",
+			"tree",
+			"GetID",
+			"ActionButton_UpdateAction",
+			"ActionButton_CalculateAction",
+			"registerf",
+			"GetActionBarPage",
+			"unitXP",
+			"UnitXP",
+			"max",
+			"UnitXP",
+			"unitXP",
+			"UnitXP",
+			"GetMovieDownloadProgress",
+			"getMovieDownloadProgress",
+			"GetMovieDownloadProgress",
+			"isBlizzCon",
+			"IsBlizzCon",
+			"lfdmicrobutton",
+			"SetDesaturation",
+			"UnitFactionGroup",
+			"IsTrialAccount",
+			"GetGuildLogoInfo",
+			"getGuildLogoInfo",
+			"isBlizzCon",
+			"IsBlizzCon",
+			"GetCVar",
+			"getCVar",
+			"IsBlizzcon",
+			"GetCVar",
+			"getCVar",
+			"GetSubZoneText",
+			"GetZonePVPInfo",
+			"getZonePVPInfo",
+			"GetZonePVPInfo",
+			"DropCursorMoney",
+			"dropCursorMoney",
+			"SetTextColor",
+			"BNConnected",
+			"parentKey",
+			"DungeonCompletionAlertFrame_OnLoad",
+			"Get",
+			"setcvar",
+			"Get",
+			"get",
+			"BNFeaturesEnabledAndConnected",
+			"bnFeaturesEnabledAndConnected"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"namespace Solid.Demo.Lsp.SideEffects",
+			"namespace Solid.Demo.Ocp.Final",
+			"NewRequirements",
+			"ns.builder.addType({",
+			"",
+			"UI",
+			"self:parseValue",
+			"function(self, file, element, target)",
+			"element.tag",
+			"log:new",
+			"Api.log.",
+			"this.",
+			"this.builder",
+			"this.run = function(parent, element)",
+			"media",
+			"local lastState = {",
+			"this:updated(lastState)",
+			"	",
+			"string.format(\"\\1\", ",
+			"string.format(\"\\1\",",
+			"string.format(\\1",
+			"Icon",
+			".CreateSpellIcon(",
+			"		--",
+			"\" }",
+			"",
+			"cachedframes",
+			"local function ",
+			"local function",
+			"S.textures.blank",
+			"S.textures.normal",
+			"S.textures.glow",
+			"S.fonts.normal",
+			"FormatNumber",
+			"OnUnitCastEvent",
+			"E:Register(",
+			"castShowNames",
+			"enableCastbar",
+			"castShowSpellIcon",
+			"castUseNames",
+			"showAltHp",
+			"mouseoverShowHp",
+			"preciseHp",
+			"tankBarColor",
+			"reactionColors",
+			"\"",
+			"\n",
+			"\"",
+			"	",
+			"S.tracker",
+			"auras"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/dev/test-projects/EmailDispatcherJs/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 62.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/dev/test-projects/EmailDispatcherJs/bin/www",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/D/dev/test-projects/EmailDispatcherJs/routes/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/dev/test-projects/EmailDispatcherJs/views/index.jade",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routes/send.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var express = require('express');",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 294.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "EmailDispatcherJs.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"gi",
+				".gitignore"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"2014-0",
+				"_posts\\2014-02-02-specialising-a-general-application.md"
+			],
+			[
+				"2014-03-",
+				"_posts\\2014-03-29-using-a-micro-orm-to-decouple-your-db-access.md"
+			],
+			[
+				"open",
+				"_drafts\\studing-opensource-automapper.md"
+			],
+			[
+				"srp",
+				"_posts\\2014-02-18-solid-principles-srp.md"
+			],
+			[
+				"stud",
+				"_drafts\\studing-opensource-automapper.md"
+			],
+			[
+				"dapp",
+				"dapper-and-automapper.md"
+			],
+			[
+				"",
+				"solid-isp.md"
+			],
+			[
+				"sold",
+				"solid-lsp.md"
+			],
+			[
+				"isbl",
+				"src\\api\\isBlizzCon.lua"
+			],
+			[
+				"actionbu",
+				"wow-ui-source\\FrameXML\\ActionButton.lua"
+			],
+			[
+				"applycoo",
+				"src\\widgets\\applyCooldown.lua"
+			],
+			[
+				"wowinter",
+				"wowinterfakes.lua"
+			],
+			[
+				"templatemanage",
+				"src\\core\\templateManager.lua"
+			],
+			[
+				"builder",
+				"src\\widgets\\builder.lua"
+			],
+			[
+				"actionbutton",
+				"wow-ui-source\\FrameXML\\ActionButtonTemplate.xml"
+			],
+			[
+				"frame",
+				"src\\parsers\\xml\\frame.lua"
+			],
+			[
+				"applybutto",
+				"src\\widgets\\applyButton.lua"
+			],
+			[
+				"applyframe",
+				"src\\widgets\\applyFrame.lua"
+			],
+			[
+				"action",
+				"wow-ui-source\\FrameXML\\ActionButton.lua"
+			],
+			[
+				"cool",
+				"wow-ui-source\\FrameXML\\Cooldown.lua"
+			],
+			[
+				"applybutt",
+				"src\\widgets\\applyButton.lua"
+			],
+			[
+				"uidropd",
+				"wow-ui-source\\FrameXML\\UIDropDownMenu.lua"
+			],
+			[
+				"applyfr",
+				"src\\widgets\\applyFrame.lua"
+			],
+			[
+				"widget",
+				"tests\\WidgetBuilderTests.lua"
+			],
+			[
+				"wowinterfa",
+				"wowinterfakes.tests.lua"
+			],
+			[
+				"wowint",
+				"wowinterfakes.lua"
+			],
+			[
+				"wow",
+				"wowinterfakes.lua"
+			],
+			[
+				"wowinterf",
+				"wowinterfakes.lua"
+			],
+			[
+				"applybu",
+				"src\\widgets\\applyButton.lua"
+			],
+			[
+				"actionbut",
+				"wow-ui-source\\FrameXML\\ActionButton.lua"
+			],
+			[
+				"mainmen",
+				"wow-ui-source\\FrameXML\\MainMenuBar.lua"
+			],
+			[
+				"uni",
+				"src\\api\\unitXP.lua"
+			],
+			[
+				"alias",
+				"src\\api\\alias.math.lua"
+			],
+			[
+				"unixp",
+				"src\\api\\unitXP.lua"
+			],
+			[
+				"isbli",
+				"src\\api\\isBlizzCon.lua"
+			],
+			[
+				"mainmenubar.l",
+				"wow-ui-source\\FrameXML\\MainMenuBar.lua"
+			],
+			[
+				"applyte",
+				"src\\widgets\\applyTexture.lua"
+			],
+			[
+				"applybut",
+				"src\\widgets\\applyButton.lua"
+			],
+			[
+				"uipare",
+				"wow-ui-source\\FrameXML\\UIParent.lua"
+			],
+			[
+				"applytext",
+				"src\\widgets\\applyTexture.lua"
+			],
+			[
+				"mainmenubarmi",
+				"wow-ui-source\\FrameXML\\MainMenuBarMicroButtons.lua"
+			],
+			[
+				"getcv",
+				"src\\api\\getCVar.lua"
+			],
+			[
+				"applybutton",
+				"src\\widgets\\applyButton.lua"
+			],
+			[
+				"fontstr",
+				"src\\widgets\\applyFontString.lua"
+			],
+			[
+				"fontstring",
+				"src\\parsers\\xml\\fontString.lua"
+			],
+			[
+				"fontinstan",
+				"src\\widgets\\applyFontInstance.lua"
+			],
+			[
+				"zonetex",
+				"wow-ui-source\\FrameXML\\ZoneText.lua"
+			],
+			[
+				"alertfra",
+				"wow-ui-source\\FrameXML\\AlertFrames.lua"
+			],
+			[
+				"bngetmat",
+				"src\\api\\bnGetMatureLanguageFilter.lua"
+			],
+			[
+				"applyche",
+				"src\\widgets\\applyCheckButton.lua"
+			],
+			[
+				"interfaceopt",
+				"wow-ui-source\\FrameXML\\InterfaceOptionsPanels.lua"
+			],
+			[
+				"cvars",
+				"src\\data\\cvars.lua"
+			],
+			[
+				"applyfonts",
+				"src\\widgets\\applyFontString.lua"
+			],
+			[
+				"uipane",
+				"wow-ui-source\\FrameXML\\UIPanelTemplates.lua"
+			],
+			[
+				"stack",
+				"src\\core\\stack.lua"
+			],
+			[
+				"xmlpar",
+				"src\\parsers\\xmlParser.lua"
+			],
+			[
+				"lunat",
+				"lib\\lunatic.lua"
+			],
+			[
+				"tests",
+				"wowinterfakes.tests.lua"
+			],
+			[
+				"framcr",
+				"tests\\frameCreationTests.lua"
+			],
+			[
+				"scriptex",
+				"tests\\scriptExecutionOrderTests.lua"
+			],
+			[
+				"framecrea",
+				"tests\\frameCreationTests.lua"
+			],
+			[
+				"getcvar",
+				"src\\api\\getCVar.lua"
+			],
+			[
+				"audio",
+				"wow-ui-source\\FrameXML\\AudioOptionsPanels.lua"
+			],
+			[
+				"slider",
+				"src\\widgets\\applySlider.lua"
+			],
+			[
+				"statusbar",
+				"src\\widgets\\applyStatusBar.lua"
+			],
+			[
+				"audiooptionspan",
+				"wow-ui-source\\FrameXML\\AudioOptionsPanels.lua"
+			],
+			[
+				"templateman",
+				"src\\core\\templateManager.lua"
+			],
+			[
+				"sound_s",
+				"src\\api\\sound_GameSystem_GetNumOutputDrivers.lua"
+			],
+			[
+				"aplyfont",
+				"src\\widgets\\applyFontString.lua"
+			],
+			[
+				"uidrop",
+				"wow-ui-source\\FrameXML\\UIDropDownMenu.lua"
+			],
+			[
+				"applytt",
+				"src\\widgets\\applyTexture.lua"
+			],
+			[
+				"out",
+				"output.log"
+			],
+			[
+				"uidro",
+				"wow-ui-source\\FrameXML\\UIDropDownMenu.lua"
+			],
+			[
+				"locale",
+				"src\\api\\fillLocalizedClassList.lua"
+			],
+			[
+				"applyfram",
+				"src\\widgets\\applyFrame.lua"
+			],
+			[
+				"uidropwo",
+				"wow-ui-source\\FrameXML\\UIDropDownMenu.lua"
+			],
+			[
+				"secure",
+				"src\\api\\securecall.lua"
+			],
+			[
+				"script",
+				"tests\\scriptExecutionOrderTests.lua"
+			],
+			[
+				"templa",
+				"src\\core\\templateManager.lua"
+			],
+			[
+				"xmlparser",
+				"src\\parsers\\xmlParser.lua"
+			],
+			[
+				"scripts",
+				"src\\parsers\\xml\\scripts.lua"
+			],
+			[
+				"xmlpars",
+				"src\\parsers\\xmlParser.lua"
+			],
+			[
+				"uipanel",
+				"wow-ui-source\\FrameXML\\UIPanelTemplates.xml"
+			],
+			[
+				"upanel",
+				"wow-ui-source\\FrameXML\\OptionsPanelTemplates.lua"
+			],
+			[
+				"video",
+				"wow-ui-source\\FrameXML\\VideoOptionsPanels.xml"
+			],
+			[
+				"optionsframetempl",
+				"wow-ui-source\\FrameXML\\OptionsFrameTemplates.lua"
+			],
+			[
+				"appyre",
+				"src\\widgets\\applyRegion.lua"
+			],
+			[
+				"framecre",
+				"tests\\frameCreationTests.lua"
+			],
+			[
+				"applyre",
+				"src\\widgets\\applyRegion.lua"
+			],
+			[
+				"applyree",
+				"src\\widgets\\applyVisibleRegion.lua"
+			],
+			[
+				"xmlcon",
+				"src\\core\\xmlConverter.lua"
+			],
+			[
+				"shou",
+				"lib\\should.lua"
+			],
+			[
+				"should",
+				"lib\\should.lua"
+			],
+			[
+				"lua",
+				"src\\parsers\\toc\\luaLine.lua"
+			],
+			[
+				"scriptor",
+				"tests\\scriptExecutionOrderTests.lua"
+			],
+			[
+				"createfram",
+				"src\\api\\createFrame.lua"
+			],
+			[
+				"templatem",
+				"src\\core\\templateManager.lua"
+			],
+			[
+				"scripttest",
+				"tests\\scriptExecutionOrderTests.lua"
+			],
+			[
+				"region",
+				"src\\widgets\\applyRegion.lua"
+			],
+			[
+				"anchor",
+				"src\\parsers\\xml\\anchor.lua"
+			],
+			[
+				"tag",
+				"src\\parsers\\xmlTag.lua"
+			],
+			[
+				"template",
+				"src\\core\\templateManager.lua"
+			],
+			[
+				"frametests",
+				"tests\\frameCreationTests.lua"
+			],
+			[
+				"uipanelte",
+				"wow-ui-source\\FrameXML\\UIPanelTemplates.lua"
+			],
+			[
+				"videoope",
+				"wow-ui-source\\FrameXML\\VideoOptionsPanels.lua"
+			],
+			[
+				"applyfontin",
+				"src\\widgets\\applyFontInstance.lua"
+			],
+			[
+				"videop",
+				"wow-ui-source\\FrameXML\\VideoOptionsPanels.lua"
+			],
+			[
+				"cvar",
+				"src\\api\\getCVar.lua"
+			],
+			[
+				"applysl",
+				"src\\widgets\\applySlider.lua"
+			],
+			[
+				"wowin",
+				"wowinterfakes.lua"
+			],
+			[
+				"videooptionspane",
+				"wow-ui-source\\FrameXML\\VideoOptionsPanels.lua"
+			],
+			[
+				"fr",
+				"tests\\frameCreationTests.lua"
+			],
+			[
+				"scrat",
+				"tests\\scratchTests.lua"
+			],
+			[
+				"videoop",
+				"wow-ui-source\\FrameXML\\VideoOptionsPanels.lua"
+			],
+			[
+				"optionspanel",
+				"wow-ui-source\\FrameXML\\OptionsPanelTemplates.lua"
+			],
+			[
+				"optionsp",
+				"wow-ui-source\\FrameXML\\OptionsPanelTemplates.lua"
+			],
+			[
+				"getcurr",
+				"src\\api\\getCurrentResolution.lua"
+			],
+			[
+				"graphic",
+				"wow-ui-source\\FrameXML\\GraphicsQualityLevels.lua"
+			],
+			[
+				"eventre",
+				"src\\core\\eventRegistry.lua"
+			],
+			[
+				"optionspane",
+				"wow-ui-source\\FrameXML\\OptionsPanelTemplates.lua"
+			],
+			[
+				"options",
+				"wow-ui-source\\FrameXML\\OptionsFrameTemplates.lua"
+			],
+			[
+				"getmaxmu",
+				"src\\api\\getMaxMultisampleFormatOnCvar.lua"
+			],
+			[
+				"grap",
+				"wow-ui-source\\FrameXML\\GraphicsQualityLevels.lua"
+			],
+			[
+				"framecr",
+				"tests\\frameCreationTests.lua"
+			],
+			[
+				"ui.x",
+				"wow-ui-source\\FrameXML\\UI.xsd"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\dev\\test-projects\\CruiseCli\\Cruise.sublime-project"
+			],
+			[
+				"fubu",
+				"D:\\dev\\downloaded-src\\fubuMvc.sublime-project"
+			],
+			[
+				"blo",
+				"C:\\Users\\Andy\\Documents\\Blog Posts\\blogposts.sublime-project"
+			],
+			[
+				"dark",
+				"D:\\dev\\addons\\dark.sublime-project"
+			],
+			[
+				"dar",
+				"D:\\dev\\addons\\dark.sublime-project"
+			],
+			[
+				"should",
+				"D:\\dev\\projects\\LuaShould.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
