@@ -24,6 +24,7 @@ namespace EmailDispatcher.TestApp.Infrastructure
 			values["from"] = Serialize(new EmailAddress(mail.From.DisplayName, mail.From.Address));
 			values["subject"] = mail.Subject;
 			values["body"] = mail.Body;
+			values["htmlBody"] = "";
 
 			var content = new MultipartFormDataContent();
 
