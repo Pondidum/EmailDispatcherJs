@@ -6,6 +6,34 @@ var stubTransport = require('nodemailer-stub-transport');
 
 var transport = mailer.createTransport(stubTransport());
 
+var formatEmail = function(model) {
+
+	if (model.name != "") {
+		return model.name + " <" + model.address + ">";
+	}
+
+	return model.address;
+}
+
+var buildMail = function(requestBody) {
+
+	var to = JSON.parse(requestBody.to);
+	var from = JSON.parse(requestBody.from);
+	var subject = requestBody.subject;
+	var body = requestBody.body;
+	var htmlBody = requestBody.htmlBody;
+
+	var mailData = {
+		from: formatEmail(from),
+		to: to.map(formatEmail),
+		subject: subject,
+		text: body,
+		html: htmlBody
+	};
+
+	return mailData;
+}
+
 router.get('/', function(req, res) {
 
 	var routes = [];
@@ -20,46 +48,33 @@ router.get('/', function(req, res) {
 	res.render('send', { routes: routes });
 })
 
-var formatEmail = function(model) {
-	if (model.name != "") {
-		return model.name + " <" + model.address + ">";
-	}
-
-	return model.address;
-
-}
-
 router.post('/async', function(req, res) {
 
-	var to = JSON.parse(req.body.to);
-	var from = JSON.parse(req.body.from);
-	var subject = req.body.subject;
-	var body = req.body.body;
-	var htmlBody = req.body.htmlBody;
-
-	var mailData = {
-		from: formatEmail(from),
-		to: to.map(formatEmail),
-		subject: subject,
-		text: body,
-		html: htmlBody
-	};
-
-	console.log(mailData);
+	var mailData = buildMail(req.body);
 
 	transport.sendMail(mailData, function(err, info) {
-		console.log(err);
+		if (err) {
+			console.log(err);
+		}
 	});
 
 	res.json({ status: "queued" });
 });
 
 router.post('/await', function(req, res) {
-	res.json({});
-});
 
-router.post('/bulk', function(req, res) {
-	res.json({});
-})
+	var mailData = buildMail(req.body);
+
+	transport.sendMail(mailData, function(err, info) {
+
+		if (err) {
+			res.json({ status: "error", info: info });
+		} else {
+			res.json({ status: "sent"});
+		}
+
+	});
+
+});
 
 module.exports = router;
