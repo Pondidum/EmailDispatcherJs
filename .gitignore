@@ -27,5 +27,8 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
+# data stores
+[Aa]pp_[Dd]ata
+
 # Sublime Text
 *.sublime-workspace
