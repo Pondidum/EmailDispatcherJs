@@ -4,35 +4,10 @@ var router = express.Router();
 var mailer = require('nodemailer');
 var stubTransport = require('nodemailer-stub-transport');
 
+var handleChain = require('../emailer/sendChain');
+
 var transport = mailer.createTransport(stubTransport());
 
-var formatEmail = function(model) {
-
-	if (model.name != "") {
-		return model.name + " <" + model.address + ">";
-	}
-
-	return model.address;
-}
-
-var buildMail = function(requestBody) {
-
-	var to = JSON.parse(requestBody.to);
-	var from = JSON.parse(requestBody.from);
-	var subject = requestBody.subject;
-	var body = requestBody.body;
-	var htmlBody = requestBody.htmlBody;
-
-	var mailData = {
-		from: formatEmail(from),
-		to: to.map(formatEmail),
-		subject: subject,
-		text: body,
-		html: htmlBody
-	};
-
-	return mailData;
-}
 
 router.get('/', function(req, res) {
 
@@ -50,7 +25,7 @@ router.get('/', function(req, res) {
 
 router.post('/async', function(req, res) {
 
-	var mailData = buildMail(req.body);
+	var mailData = handleChain.handle(req);
 
 	transport.sendMail(mailData, function(err, info) {
 		if (err) {
@@ -63,7 +38,7 @@ router.post('/async', function(req, res) {
 
 router.post('/await', function(req, res) {
 
-	var mailData = buildMail(req.body);
+	var mailData = handleChain.handle(req);
 
 	transport.sendMail(mailData, function(err, info) {
 
