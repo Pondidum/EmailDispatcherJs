@@ -27,10 +27,4 @@ var buildMail = function(requestBody) {
 	return mailData;
 }
 
-var handleRequest = function(req) {
-
-	return buildMail(req.body);
-
-};
-
-exports.handle = handleRequest;
+exports.build = buildMail;

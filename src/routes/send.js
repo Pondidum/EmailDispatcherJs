@@ -1,11 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
+var mailBuilder = require('../emailer/mailBuilder');
+
 var mailer = require('nodemailer');
 var stubTransport = require('nodemailer-stub-transport');
-
-var handleChain = require('../emailer/sendChain');
-
 var transport = mailer.createTransport(stubTransport());
 
 
@@ -25,7 +24,7 @@ router.get('/', function(req, res) {
 
 router.post('/async', function(req, res) {
 
-	var mailData = handleChain.handle(req);
+	var mailData = mailBuilder.build(req.body);
 
 	transport.sendMail(mailData, function(err, info) {
 		if (err) {
@@ -38,7 +37,7 @@ router.post('/async', function(req, res) {
 
 router.post('/await', function(req, res) {
 
-	var mailData = handleChain.handle(req);
+	var mailData = mailBuilder.build(req.body);
 
 	transport.sendMail(mailData, function(err, info) {
 
