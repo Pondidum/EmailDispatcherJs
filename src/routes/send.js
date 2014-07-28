@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var mailBuilder = require('../emailer/mailBuilder');
+var stats = require('../emailer/statistics');
 
 var mailer = require('nodemailer');
 var stubTransport = require('nodemailer-stub-transport');
@@ -32,7 +33,11 @@ router.post('/async', function(req, res) {
 		}
 	});
 
-	res.json({ status: "queued" });
+	var result = { status: "queued" };
+
+	res.json(result);
+	stats.log(mailData, result);
+
 });
 
 router.post('/await', function(req, res) {
@@ -41,12 +46,16 @@ router.post('/await', function(req, res) {
 
 	transport.sendMail(mailData, function(err, info) {
 
+		var result;
+
 		if (err) {
-			res.json({ status: "error", info: info });
+			result = { status: "error", info: info };
 		} else {
-			res.json({ status: "sent"});
+			result = { status: "sent"};
 		}
 
+		res.json(result);
+		stats.log(mailData, result);
 	});
 
 });
