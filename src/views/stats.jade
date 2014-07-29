@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 Statistics
+  //- p Total emails sent: #{total}
+  ul
+    each group in groups
+      li #{group.from} - #{group.count}
