@@ -15,8 +15,8 @@ statsList.push(function() {
 
 $(document).ready(function() {
 
-	for(var stat in statsList)
-	{
-		stat();
+	for (var i = 0; i < statsList.length; i++) {
+		statsList[i]();
 	}
+
 });
