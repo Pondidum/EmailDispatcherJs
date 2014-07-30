@@ -8,6 +8,7 @@ var multer = require('multer');
 
 var routes = require('./routes/index');
 var send = require('./routes/send');
+var stats = require('./routes/stats');
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/send', send);
+app.use('/stats', stats);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
