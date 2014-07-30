@@ -23,4 +23,12 @@ router.get('/totalsent', function(req, res) {
 
 });
 
+router.get('/lastfive', function(req, res) {
+
+	stats.lastSent(5, function(items) {
+		res.json(items);
+	});
+
+});
+
 module.exports = router;
