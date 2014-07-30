@@ -1,13 +1,8 @@
 extends layout
 
+block scripts
+	script(type='text/javascript', src="/js/stats-controls.js")
+
 block content
 	h1 Statistics
 	#total
-	script(type='text/javascript').
-		setInterval(function() {
-			$.ajax('/stats/totalsent', {
-				success: function(json) {
-					$('#total').text(json.count);
-				}
-			});
-		}, 1000);
