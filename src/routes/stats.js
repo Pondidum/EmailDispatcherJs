@@ -16,7 +16,11 @@ router.get('/', function(req, res) {
 });
 
 router.get('/totalsent', function(req, res) {
-	res.json({ count: 5 });
+
+	stats.totalSent(function(count) {
+		res.json({ count: count });
+	});
+
 });
 
 module.exports = router;
