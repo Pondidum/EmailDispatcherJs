@@ -1,8 +1,12 @@
 extends layout
 
 block scripts
-	script(type='text/javascript', src="/js/stats-controls.js")
+  script(type='text/javascript', src="/js/stats-controls.js")
 
 block content
-	h1 Statistics
-	#total
+  h1 Statistics
+  #controls.row
+    ul.small-block-grid-4
+      li.panel
+        h3 Total Sent
+        #total
