@@ -1,15 +1,23 @@
 extends layout
 
+mixin control(name, url)
+  .panel.control
+    h3 Total Sent
+    div(id=name)
+    script(type='text/javascript').
+      var fn = function() {
+        $.ajax('#{url}', {
+          success: function(html) {
+            $('##{name}').html(html);
+          }
+        });
+      };
+      $(document).ready(fn);
+      //setInterval(fn, 5000);
+
+
 block content
   h1 Statistics
   ul.row.no-bullet
     li.columns.large-3
-      .panel.control
-        h3 Total Sent
-        #total-sent
-        script(type='text/javascript').
-          $.ajax('/stats/totalsent', {
-            success: function(html) {
-              $('#total-sent').html(html);
-            }
-          });
+      +control('total-sent', '/stats/totalsent')
