@@ -3,8 +3,9 @@ extends layout
 mixin control(id, name, url)
   li.columns.large-4
     .panel.control
-      h3= name
-      div(id=id)
+      h4= name
+      hr
+      div(id=id).small-text
       script(type='text/javascript').
         var fn = function() {
           $.ajax('#{url}', {
