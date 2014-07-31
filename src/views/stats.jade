@@ -2,21 +2,32 @@ extends layout
 
 block scripts
   script(type='text/javascript', src="/js/stats-controls.js")
-  script(type='text/javascript', src='js/foundation/foundation.js')
-  script(type='text/javascript', src='js/foundation/foundation.equalizer.js')
 
 block content
   h1 Statistics
-  .row(data-equalizer)
-    .panel.columns.large-3(data-equalizer-watch)
-      h3 Total Sent
-      #total
-    .panel.columns.large-3(data-equalizer-watch)
-      h3 Last Five Emails
-      #lastfive
-    .panel.columns.large-3(data-equalizer-watch)
-      h3 Something else
-    .panel.columns.large-3(data-equalizer-watch)
-      h3 Something other
+  ul.row.no-bullet
+    li.columns.large-3
+      .panel.control
+        h3 Total Sent
+        #total
+    li.columns.large-3
+      .panel.control
+        h3 Last Five Emails
+        #lastfive
+    li.columns.large-3
+      .panel.control
+        h3 Something else
+    li.columns.large-3
+      .panel.control
+        h3 Something other
+    li.columns.large-3
+      .panel.control
+        h3 Something other
+    li.columns.large-3
+      .panel.control
+        h3 Something other
+    li.columns.large-3
+      .panel.control
+        h3 Something other
   script.
     $(document).foundation();
