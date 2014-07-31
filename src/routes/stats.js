@@ -20,8 +20,13 @@ router.get('/totalsent', function(req, res) {
 router.get('/lastfive', function(req, res) {
 
 	stats.lastSent(5, function(items) {
+
+		var results = items.map(function(doc) {
+			return doc.from;
+		});
+
 		res.render('controls/listcontrol', {
-			items: items
+			items: results
 		});
 	});
 
