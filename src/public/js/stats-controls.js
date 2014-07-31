@@ -11,6 +11,15 @@ statsList.push(function() {
 
 });
 
+statsList.push(function() {
+
+	$.ajax('/stats/lastfive', {
+		success: function(json) {
+			console.log(json);
+			$('#lastfive').text(json[0].from);
+		}
+	})
+});
 
 
 $(document).ready(function() {
