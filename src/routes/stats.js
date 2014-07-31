@@ -10,7 +10,9 @@ router.get('/', function(req, res) {
 router.get('/totalsent', function(req, res) {
 
 	stats.totalSent(function(count) {
-		res.render('controls/textcontrol', { content: count + "have sent" });
+		res.render('controls/textcontrol', {
+			content: count + "have sent"
+		});
 	});
 
 });
@@ -18,7 +20,9 @@ router.get('/totalsent', function(req, res) {
 router.get('/lastfive', function(req, res) {
 
 	stats.lastSent(5, function(items) {
-		res.json(items);
+		res.render('controls/listcontrol', {
+			items: items
+		});
 	});
 
 });
