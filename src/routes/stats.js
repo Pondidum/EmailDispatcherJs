@@ -10,7 +10,7 @@ router.get('/', function(req, res) {
 router.get('/totalsent', function(req, res) {
 
 	stats.totalSent(function(count) {
-		res.render('control', { content: count + "have sent" });
+		res.render('controls/textcontrol', { content: count + "have sent" });
 	});
 
 });
