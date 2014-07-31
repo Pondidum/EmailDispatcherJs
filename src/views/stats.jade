@@ -1,24 +1,24 @@
 extends layout
 
-mixin control(name, url)
-  .panel.control
-    h3 Total Sent
-    div(id=name)
-    script(type='text/javascript').
-      var fn = function() {
-        $.ajax('#{url}', {
-          success: function(html) {
-            $('##{name}').html(html);
-          }
-        });
-      };
-      $(document).ready(fn);
-      //setInterval(fn, 5000);
+mixin control(id, name, url)
+  li.columns.large-4
+    .panel.control
+      h3= name
+      div(id=id)
+      script(type='text/javascript').
+        var fn = function() {
+          $.ajax('#{url}', {
+            success: function(html) {
+              $('##{id}').html(html);
+            }
+          });
+        };
+        $(document).ready(fn);
+        //setInterval(fn, 5000);
 
 
 block content
   h1 Statistics
   ul.row.no-bullet
-    li.columns.large-3
-      +control('total-sent', '/stats/totalsent')
-      +control('last-five', '/stats/lastfive')
+    +control('total-sent', 'Total Sent', '/stats/totalsent')
+    +control('last-five', 'Last Five', '/stats/lastfive')
