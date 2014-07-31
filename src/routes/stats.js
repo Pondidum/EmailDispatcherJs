@@ -4,21 +4,13 @@ var router = express.Router();
 var stats = require('../emailer/stats');
 
 router.get('/', function(req, res) {
-
-	stats.sentFromCount(function(groups) {
-
-		res.render('stats', {
-			groups: groups
-		});
-
-	});
-
+	res.render('stats');
 });
 
 router.get('/totalsent', function(req, res) {
 
 	stats.totalSent(function(count) {
-		res.json({ count: count });
+		res.render('control', { content: count + "have sent" });
 	});
 
 });

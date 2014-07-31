@@ -1,32 +1,15 @@
 extends layout
 
-mixin statscontrol(title)
-  .panel.control
-    h3= title
-    if block
-      block
-
-
-block scripts
-  script(type='text/javascript', src="/js/stats-controls.js")
-
 block content
   h1 Statistics
   ul.row.no-bullet
     li.columns.large-3
-      +statscontrol("Total Sent")
-        #total
-    li.columns.large-3
-      +statscontrol("Last Five Emails")
-        #lastfive
-    li.columns.large-3
-      +statscontrol("Something else")
-    li.columns.large-3
-      +statscontrol("Something else")
-    li.columns.large-3
-      +statscontrol("Something else")
-    li.columns.large-3
-      +statscontrol("Something else")
-    li.columns.large-3
-      +statscontrol("Something else")
-
+      .panel.control
+        h3 Total Sent
+        #total-sent
+        script(type='text/javascript').
+          $.ajax('/stats/totalsent', {
+            success: function(html) {
+              $('#total-sent').html(html);
+            }
+          });
