@@ -1,0 +1,25 @@
+div(id="#{name}", style="height: 100px;")
+script(type='text/javascript').
+  $.jqplot("#{name}", #{items}, {
+    axesDefaults: {
+      pad: 1.1,
+      tickOptions: {
+        show: false,
+      }
+    },
+    axes: {
+      yaxis: {
+        pad: 1,
+        tickOptions: {
+          show: true,
+        }
+      }
+    },
+    seriesDefaults: {
+      color:'#5FAB78',
+      showMarker: false,
+    },
+    grid: {
+      drawGridLines: false
+    },
+  });
