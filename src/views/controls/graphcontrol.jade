@@ -1,25 +1,23 @@
 div(id="#{name}", style="height: 100px;")
 script(type='text/javascript').
   $.jqplot("#{name}", #{items}, {
-    axesDefaults: {
-      pad: 1.1,
-      tickOptions: {
-        show: false,
-      }
-    },
     axes: {
+      xaxis: {
+        ticks: [[#{xticks.startVal}, "#{xticks.startText}"], [#{xticks.finishVal}, "#{xticks.finishText}"]]
+      },
       yaxis: {
-        pad: 1,
-        tickOptions: {
-          show: true,
-        }
-      }
+        ticks: [[0, "0"], [5, "5"]]
+      },
+
     },
     seriesDefaults: {
       color:'#5FAB78',
       showMarker: false,
+      shadow: false,
     },
     grid: {
-      drawGridLines: false
+      drawGridLines: false,
+      borderWidth: 0,
+      shadow: false
     },
   });

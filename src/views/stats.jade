@@ -15,11 +15,14 @@ mixin control(id, name, url)
           });
         };
         $(document).ready(fn);
-        //setInterval(fn, 5000);
 
+block scripts
+  script(type="text/javascript", src="/js/jquery.jqplot.min.js")
+  link(rel="stylesheet" href="/css/jquery.jqplot.min.css")
 
 block content
   h1 Statistics
   ul.row.no-bullet
     +control('total-sent', 'Total Sent', '/stats/totalsent')
     +control('last-five', 'Last Five', '/stats/lastfive')
+    +control('send-rate', 'Send Rate', '/stats/sendrate')

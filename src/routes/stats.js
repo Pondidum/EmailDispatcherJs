@@ -32,4 +32,36 @@ router.get('/lastfive', function(req, res) {
 
 });
 
+router.get('/sendrate', function(req, res) {
+
+	stats.sendRate(function(series) {
+
+		var formatDate = function(ticks) {
+			var d = new Date(ticks);
+			return d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+		};
+
+		var first = series[0][0];
+		var last = series[series.length - 1][0];
+
+		var xlabels = {
+			startVal: first,
+			startText: formatDate(first),
+			finishVal: last,
+			finishText: formatDate(last)
+		};
+
+		var data = [series];
+
+		res.render('controls/graphcontrol', {
+			name: "send-rate-grid",
+			items: JSON.stringify(data),
+			xticks: xlabels
+		});
+
+	});
+
+
+});
+
 module.exports = router;
