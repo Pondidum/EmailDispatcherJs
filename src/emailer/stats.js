@@ -47,8 +47,55 @@ var lastSent = function(count, action) {
 
 };
 
+var sendRate = function(action) {
+
+	var mapreduce = function(err, docs) {
+
+		var results = docs.reduce(function(result, current) {
+
+			var sent = new Date(current.sent);
+			var key = Number([
+				sent.getFullYear(),
+				sent.getMonth(),
+				sent.getDate(),
+				sent.getHours(),
+				sent.getMinutes(),
+				sent.getSeconds()
+			].join(""));
+
+			if (key in result) {
+				result[key].count += 1;
+			} else {
+				result._array.push(
+					result[key] = { key: key, count: 1 }
+				);
+			}
+
+			return result;
+
+		}, { _array: [] })._array;
+
+
+		var mapper = function(item) {
+			return [ item.key, item.count ];
+		};
+
+		var dataset = results.map(mapper);
+
+		action(dataset);
+	};
+
+
+	var dataset = db
+		.find({})
+		.sort({ sent: 1})
+		.exec(mapreduce);
+
+
+};
 
 exports.log = logEmail;
 
 exports.totalSent = totalSent;
 exports.lastSent = lastSent;
+exports.sendRate = sendRate;
