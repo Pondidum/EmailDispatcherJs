@@ -47,37 +47,8 @@ var lastSent = function(count, action) {
 
 };
 
-var sentByFrom = function(action) {
-
-	db.find({}, function(err, docs) {
-
-		var reduced = docs.reduce(function(result, doc) {
-
-			var from = doc.email.from;
-
-			if (from in result) {
-				result[from].count += 1;
-			} else {
-				result.arr.push(
-					result[from] = {
-						from: from,
-						count: 1
-					});
-			}
-
-			return result;
-		}, { arr: [] } );
-
-		action(reduced.arr);
-
-	});
-
-};
 
 exports.log = logEmail;
 
 exports.totalSent = totalSent;
 exports.lastSent = lastSent;
-
-
-exports.sentFromCount = sentByFrom;
