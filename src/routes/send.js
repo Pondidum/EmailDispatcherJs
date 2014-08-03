@@ -25,9 +25,10 @@ router.get('/', function(req, res) {
 
 router.post('/async', function(req, res) {
 
-	var mailData = mailBuilder.build(req.body);
+	var parsed = mailBuilder.parse(req.body);
+	var mail = mailBuilder.build(parsed);
 
-	transport.sendMail(mailData, function(err, info) {
+	transport.sendMail(mail, function(err, info) {
 		if (err) {
 			console.log(err);
 		}
@@ -36,15 +37,16 @@ router.post('/async', function(req, res) {
 	var result = { status: "queued" };
 
 	res.json(result);
-	stats.log(mailData, result);
+	stats.log(parsed, result);
 
 });
 
 router.post('/await', function(req, res) {
 
-	var mailData = mailBuilder.build(req.body);
+	var parsed = mailBuilder.parse(req.body);
+	var mail = mailBuilder.build(parsed);
 
-	transport.sendMail(mailData, function(err, info) {
+	transport.sendMail(mail, function(err, info) {
 
 		var result;
 
@@ -55,7 +57,7 @@ router.post('/await', function(req, res) {
 		}
 
 		res.json(result);
-		stats.log(mailData, result);
+		stats.log(parsed, result);
 	});
 
 });
