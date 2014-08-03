@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var mailBuilder = require('../emailer/mailBuilder');
-var stats = require('../emailer/stats');
+var stats = require('../emailer/statsStore');
 
 var mailer = require('nodemailer');
 var stubTransport = require('nodemailer-stub-transport');

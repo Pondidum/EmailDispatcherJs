@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var stats = require('../emailer/stats');
+var stats = require('../emailer/statsStore');
 
 router.get('/totalsent', function(req, res) {
 
