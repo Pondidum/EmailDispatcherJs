@@ -41,7 +41,7 @@ var lastSent = function(count, action) {
 	};
 
 	db.find({})
-	  .sort({ sent: 1 })
+	  .sort({ sent: -1 })
 	  .limit(count)
 	  .exec(map);
 
