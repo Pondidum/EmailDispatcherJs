@@ -1,7 +1,6 @@
 extends layout
 
 mixin control(id, name, url)
-  li.columns.large-4
     .panel.control
       h4= name
       hr
@@ -22,7 +21,13 @@ block scripts
 
 block content
   h1 Email Dispatcher JS - Dashboard
-  ul.row.no-bullet
-    +control('total-sent', 'Total Sent', '/stats/totalsent')
-    +control('last-five', 'Last Five', '/stats/lastfive')
-    +control('send-rate', 'Send Rate', '/stats/sendrate')
+  .row
+    .columns.large-4
+      +control('total-sent', 'Total Sent', '/stats/totalsent')
+    .columns.large-8
+      +control('send-rate', 'Send Rate', '/stats/sendrate')
+  .row
+    .columns.large-4.end
+      +control('last-five', 'Last Five', '/stats/lastfive')
+
+
