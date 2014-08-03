@@ -54,20 +54,16 @@ var sendRate = function(action) {
 		var results = docs.reduce(function(result, current) {
 
 			var sent = new Date(current.sent);
-			var key = Number([
-				sent.getFullYear(),
-				sent.getMonth(),
-				sent.getDate(),
-				sent.getHours(),
-				sent.getMinutes(),
-				sent.getSeconds()
-			].join(""));
+			var key = Math.round(sent.getTime() / 1000) //seconds
+
+			//var resolution = 30;	//seconds
+			//key = Math.round(key / resolution) * resolution
 
 			if (key in result) {
 				result[key].count += 1;
 			} else {
 				result._array.push(
-					result[key] = { key: key, count: 1 }
+					result[key] = { sent: current.sent, count: 1 }
 				);
 			}
 
@@ -77,7 +73,7 @@ var sendRate = function(action) {
 
 
 		var mapper = function(item) {
-			return [ item.key, item.count ];
+			return [ item.sent, item.count ];
 		};
 
 		var dataset = results.map(mapper);
