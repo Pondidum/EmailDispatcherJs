@@ -37,14 +37,14 @@ router.get('/sendrate', function(req, res) {
 			return d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 		};
 
-		var first = series[0];
-		var last = series[series.length - 1];
+		var first = series[0][0];
+		var last = series[series.length - 1][0];
 
 		var xticks = {
-			startVal: first[0],
-			startText: formatDate(first[0]),
-			finishVal: last[0],
-			finishText: formatDate(last[0])
+			startVal: first,
+			startText: formatDate(first),
+			finishVal: last,
+			finishText: formatDate(last)
 		};
 
 		var data = [series];
