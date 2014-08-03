@@ -4,7 +4,7 @@ var router = express.Router();
 var stats = require('../emailer/stats');
 
 router.get('/', function(req, res) {
-	res.render('stats');
+	res.render('dashboard');
 });
 
 router.get('/totalsent', function(req, res) {
