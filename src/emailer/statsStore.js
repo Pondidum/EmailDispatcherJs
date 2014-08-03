@@ -49,44 +49,50 @@ var lastSent = function(count, action) {
 
 var sendRate = function(action) {
 
-	var mapreduce = function(err, docs) {
+	var now = Date.now();
+	var startDate = new Date(now);
+	var finishDate = new Date(now);
 
-		var results = docs.reduce(function(result, current) {
-
-			var sent = new Date(current.sent);
-			var key = Math.round(sent.getTime() / 1000) //seconds
-
-			//var resolution = 30;	//seconds
-			//key = Math.round(key / resolution) * resolution
-
-			if (key in result) {
-				result[key].count += 1;
-			} else {
-				result._array.push(
-					result[key] = { sent: current.sent, count: 1 }
-				);
-			}
-
-			return result;
-
-		}, { _array: [] })._array;
-
-
-		var mapper = function(item) {
-			return [ item.sent, item.count ];
-		};
-
-		var dataset = results.map(mapper);
-
-		action(dataset);
-	};
+	startDate.setMinutes(startDate.getMinutes() - 10);
 
 
 	var dataset = db
-		.find({})
+		.find({ sent: { $gt: startDate.getTime() } })
 		.sort({ sent: 1})
-		.exec(mapreduce);
+		.exec(function(err, docs) {
 
+			var series = [];
+			var results = [];
+
+			for (var i = 0; i < 600; i++) {
+
+				startDate.setSeconds(startDate.getSeconds() + 1);
+
+				var obj = { sent: startDate.getTime(), count: 0 };
+				var key =  Math.round(startDate.getTime() / 1000);
+
+				results[key] = obj;
+				series.push(obj);
+			};
+
+			for (var i = 0; i < docs.length; i++) {
+
+				var doc = docs[i]
+
+				var sent = new Date(doc.sent);
+				var key = Math.round(sent.getTime() / 1000) //seconds
+
+				results[key].count += 1;
+			};
+
+			var mapper = function(item) {
+				return [ item.sent, item.count ];
+			};
+
+			var dataset = series.map(mapper);
+
+			action(dataset);
+		});
 
 };
 
