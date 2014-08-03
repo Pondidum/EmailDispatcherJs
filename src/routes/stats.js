@@ -3,10 +3,6 @@ var router = express.Router();
 
 var stats = require('../emailer/stats');
 
-router.get('/', function(req, res) {
-	res.render('dashboard');
-});
-
 router.get('/totalsent', function(req, res) {
 
 	stats.totalSent(function(count) {
