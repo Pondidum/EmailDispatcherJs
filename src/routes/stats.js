@@ -34,24 +34,18 @@ router.get('/sendrate', function(req, res) {
 
 		var formatDate = function(ticks) {
 			var d = new Date(ticks);
-			return d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+			return d.getHours() + ":" + ('0' + d.getMinutes()).slice(-2) + "." + ('0' + d.getSeconds()).slice(-2)
 		};
 
 		var first = series[0][0];
 		var last = series[series.length - 1][0];
 
-		var xticks = {
-			startVal: first,
-			startText: formatDate(first),
-			finishVal: last,
-			finishText: formatDate(last)
-		};
-
 		var data = [series];
+		var xticks = [[first, formatDate(first)], [last, formatDate(last)]];
 
 		res.render('controls/graphcontrol', {
 			name: "send-rate-grid",
-			items: JSON.stringify(data),
+			items: data,
 			xticks: xticks,
 		});
 

@@ -1,9 +1,11 @@
 div(id="#{name}", style="height: 100px;")
 script(type='text/javascript').
-  $.jqplot("#{name}", #{items}, {
+  $.jqplot("#{name}",
+    !{JSON.stringify(items)},
+    {
     axes: {
       xaxis: {
-        ticks: [[#{xticks.startVal}, "#{xticks.startText}"], [#{xticks.finishVal}, "#{xticks.finishText}"]]
+        ticks: !{JSON.stringify(xticks)}
       },
     },
     seriesDefaults: {
