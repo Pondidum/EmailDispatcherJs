@@ -55,6 +55,11 @@ var sendRate = function(action) {
 
 	startDate.setMinutes(startDate.getMinutes() - 10);
 
+	var rate = 10;		//seconds
+
+	var makeKey = function(d) {
+		return Math.round(d.getTime() / (1000 * rate));	//10s
+	};
 
 	var dataset = db
 		.find({ sent: { $gt: startDate.getTime() } })
@@ -64,12 +69,12 @@ var sendRate = function(action) {
 			var series = [];
 			var results = [];
 
-			for (var i = 0; i < 600; i++) {
+			for (var i = 0; i < (600 / rate); i++) {
 
-				startDate.setSeconds(startDate.getSeconds() + 1);
+				startDate.setSeconds(startDate.getSeconds() + rate);
 
 				var obj = { sent: startDate.getTime(), count: 0 };
-				var key =  Math.round(startDate.getTime() / 1000);
+				var key = makeKey(startDate);
 
 				results[key] = obj;
 				series.push(obj);
@@ -80,7 +85,7 @@ var sendRate = function(action) {
 				var doc = docs[i]
 
 				var sent = new Date(doc.sent);
-				var key = Math.round(sent.getTime() / 1000) //seconds
+				var key = makeKey(sent);
 
 				results[key].count += 1;
 			};
