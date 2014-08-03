@@ -18,7 +18,7 @@ router.get('/lastfive', function(req, res) {
 	stats.lastSent(5, function(items) {
 
 		var results = items.map(function(doc) {
-			return doc.from;
+			return doc.from.name + " => " + doc.to[0].name;
 		});
 
 		res.render('controls/listcontrol', {
