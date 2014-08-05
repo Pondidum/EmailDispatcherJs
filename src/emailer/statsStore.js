@@ -17,7 +17,7 @@ var logEmail = function(email, result) {
 
 };
 
-var totalSent = function(action) {
+var totals = function(action) {
 
 	db.count({}, function(err, count) {
 		action(count);
@@ -103,6 +103,6 @@ var sendRate = function(action) {
 
 exports.log = logEmail;
 
-exports.totalSent = totalSent;
+exports.totals = totals;
 exports.lastSent = lastSent;
 exports.sendRate = sendRate;

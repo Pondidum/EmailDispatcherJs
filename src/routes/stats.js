@@ -3,9 +3,9 @@ var router = express.Router();
 
 var stats = require('../emailer/statsStore');
 
-router.get('/totalsent', function(req, res) {
+router.get('/totals', function(req, res) {
 
-	stats.totalSent(function(count) {
+	stats.totals(function(count) {
 		res.render('controls/textcontrol', {
 			content: count + " have sent"
 		});
