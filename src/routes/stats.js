@@ -7,7 +7,7 @@ router.get('/totalsent', function(req, res) {
 
 	stats.totalSent(function(count) {
 		res.render('controls/textcontrol', {
-			content: count + "have sent"
+			content: count + " have sent"
 		});
 	});
 
