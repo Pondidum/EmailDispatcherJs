@@ -19,8 +19,30 @@ var logEmail = function(email, result) {
 
 var totals = function(action) {
 
-	db.count({}, function(err, count) {
-		action(count);
+	var counts = {
+		total: 0,
+		today: 0,
+	};
+
+	var now = new Date(Date.now());
+	now.setHours(0);
+	now.setMinutes(0);
+	now.setSeconds(0);
+
+	db.find({}).exec(function(err, docs) {
+
+
+		docs.forEach(function(doc) {
+			counts.total++;
+
+			if (doc.sent >= now)
+			{
+				counts.today++;
+			}
+
+		});
+
+		action(counts);
 	});
 
 };

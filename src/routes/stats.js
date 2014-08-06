@@ -5,9 +5,9 @@ var stats = require('../emailer/statsStore');
 
 router.get('/totals', function(req, res) {
 
-	stats.totals(function(count) {
+	stats.totals(function(counts) {
 		res.render('controls/textcontrol', {
-			content: count + " have sent"
+			content: "Total sent: " + counts.total + "<br />Sent Today: " + counts.today
 		});
 	});
 
